@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bubbles.app</groupId>
+    <artifactId>bubbles-app</artifactId>
+    <version>4.0.6.2</version>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        Bubbles App - Bubbles 应用集
+    </description>
+
+    <modules>
+        <module>bubbles-app-data-governance</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.bubbles.engine</groupId>
+                <artifactId>bubbles-bom</artifactId>
+                <version>4.0.6.2</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.bubbles.engine</groupId>
+            <artifactId>bubbles-common-core</artifactId>
+        </dependency>
+    </dependencies>
+</project>

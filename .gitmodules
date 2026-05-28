@@ -1,0 +1,3 @@
+[submodule "bubbles-app-data-governance"]
+	path = bubbles-app-data-governance
+	url = git@github.com:cryptoneedle/bubbles-app-data-governance.git
