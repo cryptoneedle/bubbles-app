@@ -1,3 +1,6 @@
 [submodule "bubbles-app-data-governance"]
 	path = bubbles-app-data-governance
 	url = git@github.com:cryptoneedle/bubbles-app-data-governance.git
+[submodule "bubbles-app-flow-code-repository"]
+	path = bubbles-app-flow-code-repository
+	url = git@github.com:cryptoneedle/bubbles-app-flow-code-repository.git
